@@ -1,7 +1,5 @@
 In case you got a similar error
 
-still stuck:
-
 ```
 1
 
