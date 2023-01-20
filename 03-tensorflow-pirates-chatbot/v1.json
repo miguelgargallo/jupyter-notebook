@@ -1,0 +1,260 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "input": [
+                "hello",
+                "hi",
+                "hey",
+                "good morning",
+                "good afternoon",
+                "good evening"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there! What can I do for you?",
+                "Hey! How can I assist you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "input": [
+                "bye",
+                "goodbye",
+                "see you later",
+                "catch you later",
+                "talk to you later",
+                "Thank you",
+                "Thanks",
+                "Thanks for the info",
+                "bye",
+                "byr bro",
+                "adios",
+                "okay bye",
+                "goodbye",
+                "see you later",
+                "i will catch you later",
+                "i will catch up later",
+                "okay i will see you later",
+                "I will talk to you later",
+                "will text you later",
+                "bye bro, I'll talk to you later",
+                "Bye brother"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later! Take care.",
+                "Catch you later! Have a good one.",
+                "Okay, Bye",
+                "Have a nice day",
+                "Adios",
+                "Goodbye",
+                "see you later",
+                "nice conversation. bye",
+                "okay. Have a nice day",
+                "Take care",
+                "we'll meet soon",
+                "Yeah Sure, Will talk to you later",
+                "Okay , Take care"
+            ]
+        },
+        {
+            "tag": "help",
+            "input": [
+                "help",
+                "assistance",
+                "support",
+                "need help",
+                "can you help me"
+            ],
+            "responses": [
+                "Of course! How can I assist you?",
+                "Sure thing! What do you need help with?",
+                "Absolutely! What kind of support do you need?"
+            ]
+        },
+        {
+            "tag": "hours",
+            "input": [
+                "what are your hours",
+                "when are you open",
+                "when are you closed"
+            ],
+            "responses": [
+                "We are open every day from 9am to 5pm",
+                "Our hours of operation are 9am to 5pm, 7 days a week",
+                "We are open from 9am to 5pm Monday through Friday, and closed on weekends."
+            ]
+        },
+        {
+            "tag": "location",
+            "input": [
+                "where are you located",
+                "what is your address",
+                "can you tell me where you are"
+            ],
+            "responses": [
+                "We are located at 123 Main Street",
+                "Our address is 123 Main Street",
+                "We are at 123 Main Street, come and visit us!"
+            ]
+        },
+        {
+            "tag": "feelings",
+            "input": [
+                "I am feeling down",
+                "I am feeling sad",
+                "I am feeling depressed",
+                "I am feeling anxious",
+                "I am feeling stressed"
+            ],
+            "responses": [
+                "I am sorry to hear that. Is there anything I can do to help?",
+                "It's normal to feel that way sometimes. Can you tell me more about what's been going on?",
+                "It sounds like you're going through a tough time. Have you considered speaking with a therapist or counselor?",
+                "Stress and anxiety are very common feelings. Would you like some tips to manage them?",
+                "I can understand how you feel. There are many ways to cope with depression. Can I suggest some resources for you?"
+            ]
+        },
+        {
+            "tag": "happiness",
+            "input": [
+                "I am happy",
+                "I am feeling happy",
+                "I am so happy",
+                "I am really happy"
+            ],
+            "responses": [
+                "That's great to hear! What's making you happy today?",
+                "I'm glad to hear that! Can you tell me more about what's bringing you joy?",
+                "Happiness is contagious! Can you share the reason for your happiness with me?"
+            ]
+        },
+        {
+            "tag": "sadness",
+            "input": [
+                "I am sad",
+                "I am feeling sad",
+                "I am so sad",
+                "I am really sad"
+            ],
+            "responses": [
+                "I'm sorry to hear that. Can you tell me more about what's been going on?",
+                "It's normal to feel sad sometimes. Is there something specific that's been bringing you down?",
+                "It sounds like you're having a tough day. Would you like to talk about it?"
+            ]
+        },
+        {
+            "tag": "fear",
+            "input": [
+                "I am afraid",
+                "I am feeling afraid",
+                "I am so afraid",
+                "I am really afraid"
+            ],
+            "responses": [
+                "What are you afraid of?",
+                "It's normal to feel fear in certain situations, can you tell me what is the situation that's making you feel afraid?",
+                "It's important to address and work through your fears. Would you like some tips on how to do that?"
+            ]
+        },
+        {
+            "tag": "anger",
+            "input": [
+                "I am angry",
+                "I am feeling angry",
+                "I am so angry",
+                "I am really angry"
+            ],
+            "responses": [
+                "Can you tell me what's been making you feel angry?",
+                "It's normal to feel anger, but it's important to find healthy ways to express it. Would you like some tips on how to do that?",
+                "Sometimes, anger can be a sign of deeper emotions. Can you tell me more about what's been going on?"
+            ]
+        },
+        {
+            "tag": "love",
+            "input": [
+                "I am in love",
+                "I am feeling in love",
+                "I am so in love",
+                "I am really in love"
+            ],
+            "responses": [
+                "That's wonderful! Who or what are you in love with?",
+                "Love is a powerful feeling. Can you tell me more about how you're feeling?",
+                "It's great to be in love. How can I help you with that feeling?"
+            ]
+        },
+        {
+            "tag": "excitement",
+            "input": [
+                "I am excited",
+                "I am feeling excited",
+                "I am so excited",
+                "I am really excited"
+            ],
+            "responses": [
+                "That's great to hear! What's got you excited?",
+                "Excitement is contagious! Can you tell me more about what's got you pumped?",
+                "I'm glad to hear you're excited! Can you share the reason for your excitement with me?"
+            ]
+        },
+        {
+            "tag": "stress",
+            "input": [
+                "I am stressed",
+                "I am feeling stressed",
+                "I am so stressed",
+                "I am really stressed"
+            ],
+            "responses": [
+                "Stress can be overwhelming. Can you tell me more about what's been causing your stress?",
+                "It's important to find ways to manage stress. Would you like some tips on how to do that?",
+                "Stress can come from many sources, can you tell me where is your stress coming from?"
+            ]
+        },
+        {
+            "tag": "relaxation",
+            "input": [
+                "I am relaxed",
+                "I am feeling relaxed",
+                "I am so relaxed",
+                "I am really relaxed"
+            ],
+            "responses": [
+                "That's great to hear! What have you been doing to relax?",
+                "Relaxation is important for our well-being. Can you share your secret to relaxation with me?",
+                "I'm glad you're feeling relaxed. Can you tell me more about how you're feeling?"
+            ]
+        },
+        {
+            "tag": "frustration",
+            "input": [
+                "I am frustrated",
+                "I am feeling frustrated",
+                "I am so frustrated",
+                "I am really frustrated"
+            ],
+            "responses": [
+                "Can you tell me more about what's been causing your frustration?",
+                "It's normal to feel frustrated at times, but it's important to find healthy ways to cope with it. Would you like some tips on how to do that?",
+                "Frustration can be a sign of unmet needs or goals. Can you tell me more about what's been going on?"
+            ]
+        },
+        {
+            "tag": "contentment",
+            "input": [
+                "I am content",
+                "I am feeling content",
+                "I am so content",
+                "I am really content"
+            ],
+            "responses": [
+                "That's great to hear! What's making you feel content?",
+                "Contentment is a peaceful feeling. Can you share more about what's making you feel that way?",
+                "I'm glad you're feeling content. Can you tell me more about how you're feeling?"
+            ]
+        }
+    ]
+}
